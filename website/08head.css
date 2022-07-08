@@ -1,0 +1,200 @@
+.headerTop{
+   background-color: white;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 100%;
+   height: 60px;
+   position: fixed;
+   top: 3px;
+   left: 0px;
+   gap: 50px;
+   z-index: 1000;
+
+
+}
+.headerLeft
+{
+   display: flex;
+   flex-direction: column;
+   position: fixed;
+   top: 90px;
+   left: 0px;
+   bottom: 0px;
+   width: 70px;
+   z-index: 2;
+
+
+}
+.header-sug{
+   position: fixed;
+   display: flex;
+   right: 0px;
+   top: 60px;
+   left: 70px;
+   height: 50px;
+   background-color:white;
+   border-top: .5px solid black;
+   border-bottom: .5px solid black;
+ justify-content: left;
+ align-items: center;
+ gap: 40px;
+ white-space: nowrap;
+ overflow: hidden;
+ z-index: 5;
+}
+.right-side
+{
+
+display: flex;
+align-items: center;
+justify-content:space-around ;
+gap: 20px;
+margin-right: 10px;
+}
+.apps{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   cursor: pointer;
+   position: relative;
+}
+.apps img{
+   width: 25px;
+   height:25px;
+}
+.apps-pic img{
+   width: 45px;
+   height:45px;
+}
+.apps .tool-tip{
+   position: absolute;
+   top: 50px;
+   color: white;
+   padding: 1px 3px 1px 3px;
+   border-radius: 2px;
+   background-color: black;
+   opacity: 0;
+   border-radius: 2px;
+}
+
+.apps:hover .tool-tip{
+   opacity: 0.4;
+}
+.note{
+   font-size: small;
+   position: absolute;
+   color: azure;
+   right: -10px;
+   background-color: red;
+   padding: 1px 5px 1px 5px;
+   border-radius: 50%;
+}
+.middle-side{
+   flex: 1;
+   max-width: 600px;
+   align-items: center;
+   display: flex;
+   margin-left: -60px;  
+
+
+}
+.search-button{
+   width:65px;
+   height: 44px;
+    margin-right: 10px;
+    margin-left: -1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    white-space: nowrap;
+    gap: 15px;
+    cursor: pointer;
+   
+}
+.search-button img{
+   padding-top: 4px;
+   width: 26px;
+
+}
+.search-button .tool-tip{
+   color: aliceblue;
+   padding: 1px 3px 1px 3px;
+   border-radius: 2px;
+   background-color: black;
+   opacity: 0;
+}
+   
+.voice-button{
+   width: 40px;
+   height:40px;
+   border-radius: 20px;
+   border: none;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   white-space: nowrap;
+   gap: 15px;
+   cursor: pointer;
+  
+}
+.voice-button img{
+padding-top: 3px;
+}
+.voice-button .tool-tip{
+   position: static;
+   color: aliceblue;
+   padding: 1px 3px 1px 3px;
+   border-radius: 2px;
+   background-color: black;
+   opacity: 0;
+   
+}
+.voice-button:hover .tool-tip,
+.search-button:hover .tool-tip{
+opacity: 0.4;
+}
+.entershits{
+   flex: 1;
+   height: 38px;
+   width: 0px;
+}
+.left-side {
+   display: flex;
+   flex-shrink: 0;
+   align-items: center;
+   width: 250px;
+   height: 80%;
+   padding-left: 20px;
+   gap: 10px;
+}
+.side{
+   height: 76px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+.headerLeft img{
+   height: 24px;
+   
+   
+}
+.headerLeft .side>div{
+   font-size: 10px;
+   font-weight: bold;
+   white-space: nowrap;
+   margin-top: 5px;
+
+}
+
+.side:hover{
+ background-color: antiquewhite;
+}
+
+.header-sug p{
+  border-radius: 15px;
+  background-color: yellow;
+  padding: 5px 10px 5px 10px;
+  cursor: pointer;
+}
